@@ -75,5 +75,5 @@ CurlInfo :: enum i32 {
     Protocol                = CURLINFO_LONG   + 48,
     Scheme                  = CURLINFO_STRING + 49,
     /* Fill in new entries below here! */   
-    Lastone                 = 49
+    Lastone,                = 49
 }
