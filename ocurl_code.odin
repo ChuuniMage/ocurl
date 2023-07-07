@@ -108,5 +108,5 @@ CurlCode :: enum i32 {
     SslPinnedpubkeynotmatch, /* 90 - specified pinned public key did not  match */
     SslInvalidcertstatus,    /* 91 - invalid certificate status */
     Http2Stream,             /* 92 - stream error in HTTP/2 framing layer */
-    CurlLast                 /* never use! */
+    CurlLast,                /* never use! */
 }
