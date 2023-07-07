@@ -682,5 +682,5 @@ CurlOption :: enum i32 {
   /* Suppress proxy CONNECT response headers from user callbacks */
     SuppressConnectHeaders                                                 = CURLOPTTYPE_LONG + 265,
 
-    LastEntry /* the last unused */
+    LastEntry, /* the last unused */
 }
